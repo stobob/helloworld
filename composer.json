@@ -1,0 +1,21 @@
+{
+    "name": "stobob/hello-world",
+    "description": "Basic Yii2 composer example widget package.",
+    "type": "yii2-widget",
+    "keywords": ["yii2", "example"],
+    "minimum-stability": "dev",
+    "license": "na",
+    "authors": [
+        {
+            "name": "Stob o",
+            "email": "me@stobob.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {"stobob\\helloworld\\": "" }
+    }
+
+}
